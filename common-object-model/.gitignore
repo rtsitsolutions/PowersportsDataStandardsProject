@@ -1,0 +1,5 @@
+# Output folder from Maven
+target/
+
+# SWP files from editors
+*.swp

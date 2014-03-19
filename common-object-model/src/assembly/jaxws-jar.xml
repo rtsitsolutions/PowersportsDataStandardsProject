@@ -1,0 +1,17 @@
+<assembly>
+   <id>jaxws</id>
+   <formats>
+      <format>jar</format>
+   </formats>
+   <includeBaseDirectory>false</includeBaseDirectory>
+   <fileSets>
+      <fileSet>
+         <directory>target/classes</directory>
+         <outputDirectory>/</outputDirectory>
+         <includes>
+            <include>STAR/wsdl/GetDealerLocator.wsdl</include>
+            <include>org/**</include>
+         </includes>
+      </fileSet>
+   </fileSets>
+</assembly>
